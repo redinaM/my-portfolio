@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*--------Navbar---------*/
+.logo{
+    width: 100px;
+    height: auto;
+  }
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+nav a.nav-link{
+    padding: auto;
+    margin: auto;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.navbar-nav > li > a{
+    color: white !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #212529;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover{
+    border: 1px solid white;
+}
+
+/*--------Header---------*/
+
+.header-wrapper{
+    background-image: url("./background.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.main-info > img{
+    width: 200px;
+    border-radius: 50%;
+    right: 200px;
+    top: 200px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.typed-text{
+    font-size: 20px;
+    color: white;
+}
+
+.two-buttons{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.btn-main-offer{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.btn-main-offer:hover{
+    border: 1px solid 	#536878;
+    background-color: 	#536878;
+    color: white;
+}
+
+
+/* ---------Footer---------- */
+
+.div{
+    background-color: black;
+    color: white;
+}
+
+/*-------- footer-icons-------- */
+.icons-class{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 2%;
+    font-size: 135%;
+}
+.icons-class:hover{
+    transform: scale(1.3);
+}
+
+.icons-class > a {
+    text-decoration: none !important;
+    color: white;
+ }
+
+ .icons-class > a:hover {
+    text-decoration: none !important;
+    color: white;
+ }

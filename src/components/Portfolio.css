@@ -1,0 +1,51 @@
+.card-port{
+    padding: 10px;
+    background:white;
+}
+
+.card-port >h2{
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.cards_container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+
+  .card-title{
+    text-align: center;
+    align-content: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+#card{
+    width: 30rem;
+    margin: 25px;
+    background-color: #212529 !important;
+    color: whitesmoke !important;
+    padding: 10px;
+    box-shadow: 0px 2px 10px whitesmoke;
+}
+
+h2{
+  text-align: center;
+}
+
+@media only screen and (max-width: 667px) {
+  .cards_container {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+    }
+    .card {
+      width: 20rem !important;
+    }
+}
